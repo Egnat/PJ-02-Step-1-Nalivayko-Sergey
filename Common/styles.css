@@ -27,6 +27,7 @@ right: 190px;
 left: 30px;	
 background: #E3B873;
 box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -52,6 +53,7 @@ Width: 253px;
 Height: 66px;
 Top: 150px;
 Left: 30px;
+
 font-family: "Yeseva One", Ariai, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -86,7 +88,6 @@ background: #2798f1;
  background: #2798f1;
 }
 
-
 .container-h2 {
 position: absolute;
 width: 178px;
@@ -94,6 +95,7 @@ height: 39px;
 top: 294px;
 left: 31px;	
 }
+
 .text-h2 {
 left: 0px;
 position: absolute;
@@ -116,6 +118,7 @@ width: 73px;
 height: 33px;
 top: 25px;
 left: 293px;
+
 font-family: 'Nunito Sans', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -142,6 +145,7 @@ height: 33px;
 top: 167px;
 left: 293px;
 position: absolute;
+
 font-family: 'Nunito Sans', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -167,6 +171,7 @@ height: 33px;
 top: 287px;
 left: 293px;
 position: absolute;
+
 font-family: 'Nunito Sans', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -200,6 +205,7 @@ width: 319.85px;
 height: 12px;
 top: 387p;
 left: 30px;
+
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -225,6 +231,7 @@ width: 137.36px;
 height: 17px;
 top: 8px;
 left: 30px;
+
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -269,6 +276,7 @@ top: 396p;
 bottom: 42px;
 left: 293px;
 position: absolute;
+
 font-family: 'Nunito Sans', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
