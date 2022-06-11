@@ -25,10 +25,7 @@ height: 790px;
 background: black;
 }
 
-.container {
-max-width: 1300px;
-margin: 0px auto;
-}
+
 
 .header-content {
 display: flex;
@@ -82,7 +79,7 @@ color:#e3b873;
 .header-nav {
 list-style: none;
 display: flex;
-margin-left: 116px;
+margin-left: 110px;
 }
 
 .header-nav_item {
