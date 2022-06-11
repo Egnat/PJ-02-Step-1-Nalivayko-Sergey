@@ -1,0 +1,289 @@
+body {
+	background: #E5E5E5;
+	margin: 0px;
+}
+
+@media screen and (max-width: 1300px) {
+body {max-width: 1300px;}
+}
+
+.content {
+top: 50px;
+left: 70px;
+position: relative;
+width: 420px;
+height: 790px;	
+background: white;
+}
+
+.submit {
+display: flex;
+position: absolute;
+justify-content: center;
+width: 200px;
+height: 51px;
+top: 21px;
+right: 190px;
+left: 30px;	
+background: #E3B873;
+box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+border: 1px solid #E3B873;
+}
+
+.submit:hover {
+border: 2px solid #2798f1;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.text-button_submit:hover {
+border-bottom: 2px solid #2798f1;
+}
+
+.text-h1 {
+position: absolute;
+Width: 253px;
+Height: 66px;
+Top: 150px;
+Left: 30px;
+font-family: "Yeseva One", Ariai, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+cursor: pointer;
+}
+
+.completed:hover::after {
+ width: 60%;  
+}
+
+.completed::after {
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+background: #2798f1;
+}
+
+.project:hover::after {
+ width: 51%;  
+}
+
+.project::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
+
+
+.container-h2 {
+position: absolute;
+width: 178px;
+height: 39px;
+top: 294px;
+left: 31px;	
+}
+.text-h2 {
+left: 0px;
+position: absolute;
+font-family: "Yeseva One", Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #181818;
+}
+
+.text-h2:hover {
+border-bottom: 2px solid #2798f1;
+}
+
+.button {
+position: absolute;
+width: 73px;
+height: 33px;
+top: 25px;
+left: 293px;
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #131313;
+cursor: pointer;
+}
+
+.button:hover::after {
+ width: 95%;  
+}
+
+.button::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
+
+.title {
+width: 73px;
+height: 33px;
+top: 167px;
+left: 293px;
+position: absolute;
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #131313;
+}
+
+.title:hover::after {
+ width: 60%;  
+}
+
+.title::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
+
+.subtitle{
+width: 135px;
+height: 33px;
+top: 287px;
+left: 293px;
+position: absolute;
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #131313;
+}
+
+.subtitle:hover::after {
+ width: 60%;  
+}
+
+.subtitle::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
+
+.group-4{
+width: 348.85px;
+height: 119px;
+top: 387px;
+position: absolute;
+cursor: pointer;
+}
+
+.text-name{
+position: absolute;
+width: 319.85px;
+height: 12px;
+top: 387p;
+left: 30px;
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: rgba(54, 54, 54, 0.5);
+}
+
+.text-name:hover::after {
+ width: 10%;  
+}
+
+.text-name::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
+
+.text-question {
+position: absolute;
+width: 137.36px;
+height: 17px;
+top: 8px;
+left: 30px;
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #363636;
+padding-top: 7px;
+}
+
+.text-question:hover::after {
+ width: 100%;  
+}
+
+.text-question::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
+
+.border {
+width: 231px;
+height: 1px;
+top: 460p;
+bottom: 58px;
+left: 30px;
+box-sizing: border-box;
+position: absolute;
+border: 1px solid rgba(54, 54, 54, 0.3);
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.border:hover {
+transition: margin-right 5px;
+background-color: #2798f1;
+}
+
+.input {
+width: 135px;
+height: 33px;
+top: 396p;
+bottom: 42px;
+left: 293px;
+position: absolute;
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #131313;
+}
+
+.input:hover::after {
+ width: 45%;  
+}
+
+.input::after {
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ background: #2798f1;
+}
