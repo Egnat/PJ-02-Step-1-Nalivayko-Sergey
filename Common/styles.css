@@ -1,15 +1,23 @@
-body {
-	background: #E5E5E5;
-	margin: 0px;
+@font-face {
+src: url("fonts/Yeseva+One.ttf");
+font-family:"Yeseva+One";
 }
 
 @media screen and (max-width: 1300px) {
 body {max-width: 1300px;}
 }
 
+body {
+background: #E5E5E5;
+margin: 0px;
+}
+
+.main {
+width: 420px;
+height: 790px;
+}
+
 .content {
-top: 50px;
-left: 70px;
 position: relative;
 width: 420px;
 height: 790px;	
@@ -20,8 +28,10 @@ background: white;
 display: flex;
 position: absolute;
 justify-content: center;
+align-items: center;
 width: 200px;
 height: 51px;
+border: 1px solid #E3B873;
 top: 21px;
 right: 190px;
 left: 30px;	
@@ -35,7 +45,6 @@ font-size: 13px;
 text-transform: uppercase;
 text-align: center;
 color: #FFFFFF;
-border: 1px solid #E3B873;
 }
 
 .submit:hover {
