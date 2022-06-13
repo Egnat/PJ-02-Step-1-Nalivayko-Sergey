@@ -47,7 +47,7 @@ color: #e3b873;
 }
 
 .logo:hover::after {
-width: 21%;  
+width: 18.3%;  
 }
 
 .logo::after {
@@ -66,13 +66,13 @@ font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal; 
 font-size: 11px;
 font-weight: 400;
-text-decoration-line: underline;
+text-decoratione: none;
 line-height: 15px;
 color: #FFFFFF;
 }
 
 .telephone:hover::after {
-width: 13.9%;    
+width: 12%;    
 }
 
 .telephone::after {
