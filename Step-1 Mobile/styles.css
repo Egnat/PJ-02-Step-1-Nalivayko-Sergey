@@ -47,7 +47,7 @@ color: #e3b873;
 }
 
 .logo:hover::after {
-width: 18.3%;  
+width: 11.5%;  
 }
 
 .logo::after {
@@ -72,7 +72,7 @@ color: #FFFFFF;
 }
 
 .telephone:hover::after {
-width: 12%;    
+ width: 8%;
 }
 
 .telephone::after {
@@ -80,7 +80,7 @@ content: "";
 display: flex;
 height: 2px;
 position: absolute;
-background: #2798f1;
+background: #2798f1; 
 }
 
 .room {

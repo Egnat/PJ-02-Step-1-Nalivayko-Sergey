@@ -210,7 +210,7 @@ cursor: pointer;
 
 .text-name{
 position: absolute;
-width: 319.85px;
+width: 32.85px;
 height: 12px;
 top: 387p;
 left: 30px;
@@ -222,16 +222,11 @@ font-size: 13px;
 color: rgba(54, 54, 54, 0.5);
 }
 
-.text-name:hover::after {
- width: 10%;  
-}
-
-.text-name::after {
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- background: #2798f1;
+.text-name:hover {
+background-image: linear-gradient(to right, #2798f1 0%, #2798f1 100%);
+background-repeat: repeat-x; 
+background-position: 0 100%; 
+background-size: 100% 2px; 
 }
 
 .text-question {
