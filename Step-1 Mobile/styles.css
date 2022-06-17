@@ -107,10 +107,10 @@ height: 476px;
 }
 
 .container-text {
-position: absolute;
+position: relative;
 width: 340px;
 height: 324px;
-top: 3888px;
+top: 388px;
 left: 17px;
 }
 
