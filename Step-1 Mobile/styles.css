@@ -209,6 +209,10 @@ font-size: 11px;
 line-height: 15px;
 }
 
+#button2-container-text:hover {
+border: 2px solid #2798f1;
+}
+
 .button-2:hover {
 border-bottom: 2px solid #2798f1;
 }  
