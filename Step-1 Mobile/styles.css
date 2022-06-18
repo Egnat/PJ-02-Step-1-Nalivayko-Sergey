@@ -34,7 +34,7 @@ height: 57px;
 }
 
 .logo {
-width: 176px;
+width: 151px;
 height: 10px;
 margin-left: 18px;
 font-family: "Nunito Sans", Arial, sans-serif;
@@ -47,7 +47,7 @@ color: #e3b873;
 }
 
 .logo:hover::after {
-width: 11.5%;  
+width: 151px;  
 }
 
 .logo::after {
@@ -59,7 +59,7 @@ background: #2798f1;
 }
 
 .telephone {
-width: 107px;
+width: 100px;
 height: 12px;
 margin-right: 18px;
 font-family: "Nunito Sans", Arial, sans-serif;
@@ -72,7 +72,7 @@ color: #FFFFFF;
 }
 
 .telephone:hover::after {
- width: 8%;
+ width: 100px;
 }
 
 .telephone::after {
