@@ -15,7 +15,7 @@ body * {
 box-sizing: border-box;
 }
 
-.all-content  {
+.all-conten  {
 width: 1300px;
 height: 790px;
 }
@@ -95,13 +95,16 @@ position: relative;
 max-width: 1300px;
 height: 707px;
 margin: 0px auto;
+background: url("room.jpg") no-repeat;
+background-size: cover;
+box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.33) inset;
 }
 
-.key img {
+.ke im {
 filter: brightness(0.5);
 }
 
-.img {
+.im {
 position: absolute;
 width: 1300px;
 height: 707px;
