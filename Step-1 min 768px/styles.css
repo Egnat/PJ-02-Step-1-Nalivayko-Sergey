@@ -1,94 +1,105 @@
 @font-face {
 src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
- }
-
-@media screen and (max-width: 1300px) and (min-width: 330px){
-body { background: goldenrod; }
+}
+    
+@media screen and (min-width: 768px) {
+body { background: green; }
 .header-menu { display: none; }
- }}
+.button-header { left: -58px; } 
+}}
 
+
+    
 body {
 background: #E5E5E5;
 margin: 0px;
 } 
-
+    
 body * {
 box-sizing: border-box;
 }
-
+    
 .header {
 background: black;
-width: 1300px;
+width: auto;   
 }
-
+    
 .header-content {
 display: flex;
 justify-content: space-between;
-align-items: center;
 height: 83px;
+align-items: center;
 }
-
+    
 .button-header {
-width: 171px;
-height: 44px;
+position: relative;
+width: 161px;
+height: 37px;
+right: 55px;
 background: #e3b873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 border-radius: 2px;
 border: 0px;
 outline: 0px;
 padding: 13px 33px;
-margin-right: 30px;
 color: white;
-
+  
 text-transform: uppercase;
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: italic;
 font-weight: 400px;
-font-size: 13px;
+font-size: 11px;
 line-height: 15px;
 text-align: center;
 }
-
+    
 .logo {
-margin-left: 30px;
+position: relative;
+width: 179.74px;
+height: 10px;
+left: 61px;
+
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
-font-size: 13px;
+font-size: 11px;
 font-weight: 400;
-line-height: 15px;
+line-height: 10px;
 text-transform: uppercase;
 color: #e3b873;
 }
-
+    
 .telephone {
 position: relative;
-right: 9px;
-
+width: 126px;
+height: 16px;
+left: 28px;
+    
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal; 
-font-size: 13px;
+font-size: 11px;
 font-weight: 400;
 text-decoration-line: underline;
 line-height: 15px;
 color:#e3b873;
 }
-
+    
 .header-menu {
+position: relative;
+left: 83px;
 list-style: none;
-margin-left: 129px;
 }
-
+    
 .menu_item {
 padding-right: 29px;
 }
-
+    
 .menu {
 position: relative;
 display: flex;
-margin-right: 30px;
-
-font-size: 13px;
+margin-right: 0px;
+    
+font-size: 11px;
 list-style-type: none;
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
@@ -96,8 +107,9 @@ font-weight: 400;
 line-height: 15px;
 text-decoration: none;
 }
-
-.link { color:white; 
+    
+.link { 
+color:white; 
 text-decoration-line: none;
 }
 
@@ -106,33 +118,39 @@ position: relative;
 display: block;
 width: 35px;
 height: 5px;
-right: 29px;
+left: 43px;
 background: wheat;
 }
-
+   
 .room {
 position: relative;
-background: url("room.jpg") no-repeat;
-background-size: cover;
-width: 1300px;
+width: auto;
+height: auto;
+bottom: 0px;
+}
+
+.key {
+filter: brightness(0.7);
+}
+
+.image {
+width: 100%;
 height: 707px;
-box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.33) inset;
 }
 
 .container-text {
 position: absolute; 
-width: 580.11px;
-height: 433px;
-top: 138px;
-left: 136px;
+min-width: 588.11px;
+min-height: 433px;
+bottom: 133px;
+left: 118px;
 }
-
+    
 #h1 {
-width: 577.11px;
+width: 579.11px;
 height: 105px;
-top: 277px;
-left: 134px;
- 
+margin-bottom: 46px;
+     
 font-family: "Yeseva+One";
 font-style: normal;
 font-weight: 400;
@@ -141,19 +159,19 @@ line-height: 53px;
 text-transform: uppercase; 
 color: white;
 }
-
+    
 .city-span {
 color: #e3b873;
 }
-
+    
 #text-p {
 width: 504px;
 height: 89px;
 top: 401px;
 left: 134px;
-margin-top: -11px;
-margin-bottom: 40px;
-
+margin-top: -22px;
+margin-bottom: 42px;
+    
 font-family: 'Nunito Sans', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -161,7 +179,7 @@ font-size: 22px;
 line-height: 36px;
 color: #FFFFFF;
 }
-
+    
 #button1-container-text {
 display: flex;
 justify-content: center;
@@ -171,7 +189,7 @@ height: 51px;
 border-radius: 2px;
 background: #E3B873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-
+    
 font-family: "Nunito Sans",  Arial, sans-serif;
 font-style: italic;
 font-weight: 400;
@@ -180,26 +198,27 @@ line-height: 15px;
 text-align: center;
 color: #FFFFFF;
 }
-
+    
 #button1-container-text:hover {
 border: 2px solid #E3B873;
 }
-
+    
 #button2-container-text {
 display: flex;
 justify-content: center;
 align-items: center;
 width: 207px;
-height: 51px;background-color: Transparent;
+height: 51px;
+background-color: Transparent;
 background-repeat:no-repeat;
 cursor:pointer;
 overflow: hidden;
 outline:none;
 border: 1px solid #FFFFFF;
 border-radius: 2px;
-margin-top: -51px;
-margin-left: 232px;
-
+margin-top: -53px;
+margin-left: 228px;
+    
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: italic;
 font-weight: 400;
@@ -207,7 +226,7 @@ font-size: 11px;
 line-height: 15px;
 color: white;
 }
-
+    
 .button-2:hover {
 border-bottom: 2px solid #2798f1;
 }  
