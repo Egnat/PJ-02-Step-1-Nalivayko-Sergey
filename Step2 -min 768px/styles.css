@@ -5,25 +5,25 @@ font-family:"Yeseva+One";
 
  @media screen and (min-width: 768px) {
 body { background: yellow; margin: 0px auto;}
-.content-up { margin-left: -207px; }
+.content-up { margin-left: -219px; }
 .admiral { margin-left: 11px; }
 .line { margin-right: -9px; }
 .image {position: relative; width: 541px; height: 451px; 
-right: 200px; bottom: 8px;}
-.group_container-text { margin-left: -94px; }
+right: 210px; bottom: 8px;}
+.group_container-text { margin-left: -112px; }
 .content-h2 { margin-top: -31px; }
-.group-vectors { margin-top: -20px; margin-left: -94px;}
+.group-vectors { margin-top: -20px; margin-left: -112px;}
 .control {  margin-left: -158px;}
 .watering-can {  margin-left: -158px;}
 .repair { margin-left: -158px; }
 .block-1 { bottom: 220px; }
 .border-2 { margin-left: -158px; }
 .text-3 { margin-left: -158px; }
-.block2 { right: 138px; }
+.block2 { right: 178px; }
 .first-checkbox { margin-left: -158px; }
 .types { margin-left: -158px; }
 .emblem {  margin-left: -158px;}
-.sections { right: 130px; }
+.sections { right: 148px; }
 .photo-bottom-3{ margin-left: -38px; }
 .photo-bottom-2{ margin-left: -18px; }
 .photo-bottom-1{ margin-left: 3px; }
@@ -519,7 +519,7 @@ position: relative;
 width: 348.85px;
 height: 119px;
 top: 316px;
-left: 266px;
+left: 311px;
 cursor: pointer;
 }
 
@@ -589,7 +589,7 @@ position: relative;
 width: 348.85px;
 height: 119px;
 top: 197px;
-left: 558px;
+left: 579px;
 cursor: pointer;   
 }
 
