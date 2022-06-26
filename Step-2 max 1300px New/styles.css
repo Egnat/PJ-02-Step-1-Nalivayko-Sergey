@@ -5,31 +5,34 @@ font-family:"Yeseva+One";
 
  @media screen and (max-width: 1300px) {
 body { background: blue; margin: 0px;}
-.all-content { margin-left: 180px; margin-right: 250px; }
+.all-content { margin-left: 180px;}
 .group-1{ right: 298px; }
 .group-2{ right: 298px; bottom: 347px;}
-.content-up { margin-left: -74px; }
-.group_container-text { margin-left: 35px; }
-.image { width: ; right: 246px;}
-room { margin-left: 19px; }
-.control {  margin-left: -20px;}
-.watering-can {  margin-left: -23px;}
-.repair { margin-left: -323px; }
-.block-1 { bottom: 220px; }
-.group-vectors {  margin-left: 33px;}
+.content-up { margin-left: -108px; }
 .admiral { margin-left: 11px; }
 .line { margin-right: -9px; }
-.border-2 { margin-left: -33px; }
-.text-3 { margin-left: -2px; }
-.first-checkbox { margin-left: -19px; }
-.types { margin-left: -22px; }
-.emblem {  margin-left: -28px;}
-.photo-bottom-3{ margin-left: -83px; }
-.photo-bottom-2{ margin-left: -45px; }
-.photo-bottom-1{ margin-left: -5px; }
-.rub1 {  margin-left: -4px;}
-.rub2 { margin-left: -14px; }
-.rub3 { margin-right: 75px; }
+.group_container-text { margin-left: 2px; }
+.content-h2 { margin-top: -31px; }
+.group-vectors {  margin-left: 2px;}
+.image { width: ; right: 278px;}
+.control {  margin-left: -62px;}
+.watering-can {  margin-left: -62px;}
+.repair { margin-left: -349px; }
+.block-1 { margin-top: -3px; margin-left: -3px; }
+.border-2 { margin-left: -59px; }
+.text-3 { margin-left: -65px; }
+.mini-group {  right: 61px;}
+.first-checkbox { margin-left: -52px; }
+.types { margin-left: -59px; }
+.emblem {  margin-left: -59px;}
+.photos-bottom { top: 11px; }
+.photo-bottom-3{ margin-left: -126px; }
+.photo-bottom-2{ margin-left: -73px; }
+.photo-bottom-1{ margin-left: -18px; }
+.button-container { right: 13px; }
+.rub1 {  margin-left: -11px;}
+.rub2 { margin-left: -5px; }
+.rub3 { margin-right: 112px; }
 }}
 
  body {
@@ -44,10 +47,6 @@ box-sizing: border-box;
 .all-content  {
 width: max-content;
 height: auto;
-}
-
-header {
-background: black;
 }
 
 .group-1 {
@@ -137,7 +136,7 @@ top: 94px;
 left: 610px;
 }
 
-.key img {
+.key {
 filter: brightness(0.9);
 }
 
@@ -375,19 +374,17 @@ background: #2798f1;
 
 .repair {
 position: relative;
-width: 556px;
-height: 312px;
+width: 637px;
+height: 326px;
 bottom: 134px;
-left: 391px;
+left: 321px;
 z-index: 1;
-
 }
 
 .photo {
 position: relative;
-width: 555px;
-height: 302px;
-top: ;
+width: 685px;
+height: 326px;
 }
 
 .filter img {
@@ -398,8 +395,8 @@ top: ;
 position: relative;
 display: flex;
 justify-content: center;
-bottom: 184px;
-left: 11px;
+bottom: 194px;
+left: 31px;
 }
 
 .ellipse {
@@ -418,7 +415,7 @@ transform: rotate(0deg);
 .group-2 {
 position: relative;
 height: 1431px;
-bottom: 311px;
+bottom: 325px;
 background: white;
 }
 
@@ -459,6 +456,10 @@ background-image: linear-gradient(to right, #2798f1 0%, #2798f1 100%);
 background-repeat: repeat-x; 
 background-position: 0 100%; 
 background-size: 100% 3px; 
+}
+
+.mini-group {
+ position: relative;
 }
 
 .submit {
@@ -660,6 +661,12 @@ border: 1px solid #2798f1;
     background: #2798f1;
 }
 
+.photos-bottom {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
 .photo-bottom-1 {
 display: block;
 position: relative;
@@ -840,6 +847,7 @@ color: #959595;
 }
 
 .button-container {
+position: relative;
 display: flex;
 justify-content: space-between;
 align-items: center;
