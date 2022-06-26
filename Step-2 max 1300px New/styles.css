@@ -5,9 +5,9 @@ font-family:"Yeseva+One";
 
  @media screen and (max-width: 1300px) {
 body { background: blue; margin: 0px;}
-.all-content { margin-left: 180px;}
-.group-1{ right: 298px; }
-.group-2{ right: 298px; bottom: 347px;}
+.all-content { margin-left: 260px;}
+.group-1{ right: 390px; }
+.group-2{ right: 390px; bottom: 347px;}
 .content-up { margin-left: -108px; }
 .admiral { margin-left: 11px; }
 .line { margin-right: -9px; }
@@ -17,15 +17,15 @@ body { background: blue; margin: 0px;}
 .image { width: ; right: 278px;}
 .control {  margin-left: -62px;}
 .watering-can {  margin-left: -62px;}
-.repair { margin-left: -349px; }
+.repair { margin-left: -422px; }
 .block-1 { margin-top: -3px; margin-left: -3px; }
-.border-2 { margin-left: -59px; }
-.text-3 { margin-left: -65px; }
-.mini-group {  right: 61px;}
-.first-checkbox { margin-left: -52px; }
+.border-2 { margin-left: -41px; }
+.text-3 { margin-left: -53px; }
+.mini-group {  margin-left: -37px;}
+.first-checkbox { margin-top: -18px; margin-left: -33px; }
 .types { margin-left: -59px; }
 .emblem {  margin-left: -59px;}
-.photos-bottom { top: 11px; }
+.photos-bottom { margin-left: 21px; }
 .photo-bottom-3{ margin-left: -126px; }
 .photo-bottom-2{ margin-left: -73px; }
 .photo-bottom-1{ margin-left: -18px; }
@@ -44,14 +44,14 @@ body * {
 box-sizing: border-box;
 }
 
-.all-content  {
+.all-content {
 width: max-content;
 height: auto;
 }
 
 .group-1 {
 position: relative;
-height: 1061px;
+height: 968px;
 background: black;
 }
 
@@ -321,8 +321,8 @@ background: #2798f1;
 position: relative;
 width: 174px;
 height: 26px;
-top: 65px;
-left: 588px;
+top: 0px;
+left: 614px;
 
 font-family: 'Yeseva One';
 font-style: normal;
@@ -347,8 +347,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: relative;
-top: 63px;
-left: 613px;
+top: 0px;
+left: 640px;
 }
 
 .vector-3 {
@@ -376,7 +376,7 @@ background: #2798f1;
 position: relative;
 width: 637px;
 height: 326px;
-bottom: 134px;
+bottom: 153px;
 left: 321px;
 z-index: 1;
 }
@@ -423,7 +423,7 @@ background: white;
 position: relative;
 width: 55px;
 height: 1.54px;
-top: 255px;
+top: 226px;
 left: 642px;
 border-bottom: 2px;
 background: #E3B873;
@@ -438,7 +438,7 @@ display: block;
 position: relative;
 width: 502px;
 height: 130.91px;
-top: 279.5px;
+top: 250.5px;
 left: 433px;
 
 font-family: 'Nunito Sans';
@@ -460,6 +460,8 @@ background-size: 100% 3px;
 
 .mini-group {
  position: relative;
+ right: 5px;
+ bottom: 63px;
 }
 
 .submit {
@@ -574,8 +576,8 @@ cursor: pointer;
 position: relative;
 width: 300px;
 height: 40px;
-top: 183px;
-left: 525px;
+top: 133px;
+left: 506px;
 }
 
 .label {
@@ -609,7 +611,7 @@ opacity: 1;
 position: relative;
 width: 184px;
 height: 26px;
-top: 205px;
+top: 167px;
 left: 570px;
 
 font-family: 'Yeseva One', Arial, sans-serif;
@@ -636,7 +638,7 @@ align-items: center;
 position: relative;
 width: 114px;
 height: 28px;
-top: 210px;
+top: 171px;
 left: 603px;
 }
 
@@ -654,17 +656,19 @@ border: 1px solid #2798f1;
 }
 
 .keyses {
-    background-image: url("images/keyses.svg");
+background-image: url("images/keyses.svg");
 }
 
 .keyses:hover {
-    background: #2798f1;
+background: #2798f1;
 }
 
 .photos-bottom {
-    position: relative;
-    width: auto;
-    height: auto;
+position: relative;
+width: auto;
+height: auto;
+top: -44px;
+right: 25px;
 }
 
 .photo-bottom-1 {
