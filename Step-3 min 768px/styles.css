@@ -3,50 +3,44 @@ src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
 }
 
-body { 
-background: skyblue;
-margin: 0 auto;
-}
-body * {
-box-sizing: border-box;
-}
- @media screen and (max-width: 1300px) {
-body { background: #795548; }
+ @media screen and (min-width: 768px) {
+body { background: #795548; margin: 0 auto;}
 .group1 { background: white; }
 .footer-menu { display: none; }
 }}
 
-
-
-.wrapper {
-display: flex;
-flex-direction: column;
-width: 1300px;
-height: 2703px;
+body { 
+background: skyblue;
+margin: 0 auto;
 }
 
+body * {
+box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+height: auto;
+}
+
+@media screen and (max-width: 334px) {
+body { background: green; }        
+.group1 {background: white; width: 1300px; }   
+}}
+
 .group1 {
-display: flex;
-flex-direction: column;
 position: relative;
 width: 1300px;
-height: 1769px;
+height: auto;
 background: white;
 }
 
-
-@media screen and (max-width: 375px) {
-body { background: green; }
-.wrapper { height: ; }
-}}
-
-
 .section {
-display: flex;
-flex-direction: column;
 position: relative;
 width: 617px;
-height: 943px;
+height: auto;
 }
 
 .house {
@@ -62,10 +56,11 @@ height: 595px;
 .rectangle {
 position: relative;
 display: flex;
+justify-content: space-around;;
 flex-direction: column;
-width: 434px;
+width: 437px;
 height: 351px;
-bottom: 383px;
+bottom: 375px;
 left: 225px;
 }
 
@@ -74,8 +69,6 @@ display: flex;
 }
 
 .numbers {
-display: flex;
-flex-direction: column;
 position: relative;
 top: 30px;
 right: 60px;
@@ -88,12 +81,11 @@ font-weight: 400;
 font-size: 18px;
 line-height: 25px;
 text-align: center;
+
 color: #FFFFFF;
 }
 
 .mini-text {
-display: flex;
-flex-direction: column;
 position: relative;
 width: 316px;
 height: 39px;
@@ -117,18 +109,16 @@ background-size: 100% 3px;
 }
 
 .circle {
-width: 88px;
-height: 88px;
+    width: 88px;
+    height: 88px;
 }
 
 .black-square {
-display: flex;
-flex-direction: column;
 position: relative;
 width: 506px;
-height: 521px;
+height: 509px;
 bottom: 910px;
-left: 795px;
+left: 818px;
 background: black;
 }
 
@@ -223,7 +213,7 @@ cursor: pointer;
 }
 
 .mail {
-position: relative;
+ position: relative;
 width: 348.85px;
 height: 119px;
 bottom: 17px;
@@ -246,7 +236,7 @@ color: #FFFFFF;
 }
 
 .text-question1:hover::after {
-width: 100%;
+    width: 100%;
 }
 
 .text-question1::after {
@@ -302,14 +292,14 @@ color: #FFFFFF;
 }
 
 .button {
-position: relative;
-width: 213px;
-height: 51px;
-bottom: 33px;
-left: 238px;
-padding-bottom: 4px;
-padding-left: 43px;
-background: #E3B873;
+    position: relative;
+    width: 213px;
+    height: 51px;
+    bottom: 38px;
+    left: 238px;
+    padding-bottom: 4px;
+    padding-left: 43px;
+    background: #E3B873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
  }
 
@@ -318,8 +308,8 @@ border: 2px solid #2798f1;
 }
 
 .but-text {
-width: 123px;
-height: 13px;
+    width: 123px;
+    height: 13px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -332,24 +322,22 @@ color: white;
 }
 
 .pig {
-position: relative;
-display: flex;
-width: 72px;
-height: 72px;
-bottom: 871px;
-left: 808px; 
-background: #FFFFFF;
+    position: relative;
+    display: flex;
+  width: 72px;
+  height: 72px;
+  bottom: 855px;
+  left: 837px; 
+  background: #FFFFFF;
 border: 0.1px solid #FFFFFF
 }
 
 .ellipse {
-position: relative;
-top: 1px;
-width: 88px;
-height: 88px;
-right: 6px;
-bottom: 4px;
-background: white;
+    position: relative;
+    top: 1px;
+    width: 88px;
+    height: 88px;
+    background: white;
 box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
 }
 
@@ -357,38 +345,38 @@ box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
 position: relative;
 width: 40px;
 height: 33px;
-top: 15px;
-right: 68px;
+top: 18px;
+right: 62px;
 }
 
 .piggy:hover, .bucks:hover, .eyes:hover {
-background: #2798f1;
+    background: #2798f1;
 }
 
 .eyes {
-position: relative;
-width: 5px;
-height: 2.5px;
-top: 27px;
-right: 79px;
+    position: relative;
+    width: 5px;
+    height: 2.5px;
+    top: 29px;
+    right: 75px;
 }
 
 .bucks {
-position: relative;
-width: 8px;
-height: 11px;
-top: 27px;
-right: 100px;
+    position: relative;
+    width: 8px;
+    height: 11px;
+    top: 29px;
+    right: 93px;
 }
 
 .text-pig {
-position: absolute;
-width: 344px;
-height: 47px;
-bottom: -2px;
-left: 96px;
+    position: absolute;
+    width: 344px;
+    height: 47px;
+    top: -6px;
+    left: 96px;
 
-font-family: 'Nunito Sans';
+  font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -398,20 +386,20 @@ text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
 .mini-group5 {
-position: relative;
-width: auto;
-height: auto;
-bottom: 241px;
+    position: relative;
+    width: auto;
+    height: auto;
+    bottom: 241px;
 }
 
 .h2 {
-position: relative;
-width: 257px;
-height: 26px;
-bottom: 562px;
-left: 581px;
+    position: relative;
+    width: 257px;
+    height: 26px;
+    bottom: 562px;
+    left: 581px;
 
-font-family: 'Yeseva One';
+    font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -422,46 +410,46 @@ color: #181818;
 }
 
 .group-hands {
-position: relative;
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 34px;
-height: 28px;
-bottom: 567px;
-left: 680px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34px;
+    height: 28px;
+    bottom: 567px;
+    left: 680px;
 }
 
 .vector1 {
-position: relative;
-width: 32px;
-height: 1.5px;
-right: 6px;
-background: #E3B873;
+    position: relative;
+    width: 32px;
+    height: 1.5px;
+    right: 6px;
+    background: #E3B873;
 border-radius: 30px;
 }
 
 .hands {
-width: 34px;
-height: 21px;
+    width: 34px;
+    height: 21px;
 }
 
 .vector2 {
-position: relative;
-width: 32px;
-height: 1.5px;
-left: 6px;
-background: #E3B873;
+    position: relative;
+    width: 32px;
+    height: 1.5px;
+    left: 6px;
+    background: #E3B873;
 border-radius: 30px;
-border-bottom: ;: 2px solid #E3B873;
+ border-bottom: ;: 2px solid #E3B873;
 }
 
 .vector1:hover, .vector2:hover {
-background: #2798f1;
+    background: #2798f1;
 }
 
 .h3 {
-position: relative;
+  position: relative;
 width: 366px;
 height: 57px;
 bottom: 572px;
@@ -477,39 +465,42 @@ color: #363636;
 }
 
 .people {
-position: relative;
-display: flex;
-justify-content: space-between;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 width: auto;
 height: auto;
 bottom: 715px;
+left: 36p;
+
 }
 
 .one, .two, .three {
-position: relative;
-width: 322px;
-height: 428px;
-background: white;
+    position: relative;
+    width: 322px;
+    height: 428px;
+    background: white;
+
 }
 
 .ellipse1, .ellipse2, .ellipse3 {
-position: relative;
-width: 76px;
-height: 76px;
-right: 113px;
-bottom: 15px;
-z-index: -1;
-background: #FFFFFF;
+    position: relative;
+    width: 76px;
+    height: 76px;
+    right: 113px;
+    bottom: 15px;
+    z-index: -1;
+     background: #FFFFFF;
 }
 
 .photo1, .photo2, .photo3 {
-position: relative;
-width: 116px;
-height: 102px;  
+    position: relative;
+    width: 116px;
+    height: 102px;  
 }
 
 .woman, .man {
-position: relative;
+    position: relative;
 width: 178px;
 height: 51px;
 bottom: 87px;
@@ -520,11 +511,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 23px;
+
 color: #181818;
 }
 
 .text-woman {
-position: relative;
+    position: relative;
 width: 324px;
 height: 216px;
 bottom: 64px;
@@ -537,23 +529,22 @@ line-height: 23px;
 }
 
 .button-container {
-position: relative;
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: auto;
-height: auto;
-bottom: 742px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    bottom: 742px;
 }
-
 .but1, .but2, .but3 {
-position: relative;
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 260px;
-height: 54px;
-background: #E3B873;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    height: 54px;
+    background: #E3B873;
 box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
 
@@ -562,8 +553,8 @@ border: 2px solid #2798f1;
 }
 
 .but1-text {
-width: 123px;
-height: 13px;
+    width: 123px;
+    height: 13px;
 
 font-family: 'Yeseva One';
 font-style: normal;
@@ -571,27 +562,28 @@ font-weight: 400;
 font-size: 17px;
 line-height: 24px;
 text-transform: uppercase;
+
 color: #FFFFFF;
 }
 
 .black-rectangle {
-position: relative;
-width: 770px;
-height: 409.32px;
-bottom: 217px;
-left: 271px;
-z-index: 1;
-background: black;
+    position: relative;
+    width: 770px;
+    height: 409.32px;
+    bottom: 608px;
+    left: 271px;
+    z-index: 1;
+    background: black;
 }
 
 .h2-b-r {
-position: relative;
-width: 257px;
-height: 26px;
-top: 25px;
-left: 259px;
+    position: relative;
+    width: 257px;
+    height: 26px;
+    top: 34px;
+    left: 259px;
 
-font-family: 'Yeseva One';
+    font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -606,7 +598,7 @@ color: #FFFFFF;
 position: relative;
 width: 348.85px;
 height: 119px;
-top: 42px;
+top: 19px;
 left: 131px;
 cursor: pointer;
 }
@@ -663,7 +655,7 @@ background: gba(255, 255, 255, 0.15);;
 }
 
 .strip2 {
-width: 517px;
+ width: 517px;
 height: 1px;
 top: 55px;
 box-sizing: border-box;
@@ -680,13 +672,13 @@ background-color: #2798f1;
 position: relative;
 width: 348.85px;
 height: 119px;
-bottom: 78px;
+bottom: 100px;
 left: 403px;
 cursor: pointer;   
 }
 
 .question {
-position: relative;
+ position: relative;
 width: 348.85px;
 height: 119px;
 bottom: 116px;
@@ -709,7 +701,7 @@ color: #FFFFFF;
 }
 
 .text-question1:hover::after {
-width: 100%;
+    width: 100%;
 }
 
 .text-question1::after {
@@ -756,20 +748,20 @@ opacity: 1;
 }
 
 .button-bl-r {
-position: relative;
-width: 213px;
-height: 51px;
-bottom: 122px;
-left: 289px;
-padding-bottom: 6px;
-padding-left: 79px;
-background: #E3B873;
+    position: relative;
+    width: 213px;
+    height: 51px;
+    bottom: 122px;
+    left: 289px;
+    padding-bottom: 6px;
+    padding-left: 79px;
+    background: #E3B873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
  }
 
 .button-bl-r-text {
-width: 56px;
-height: 13px;
+    width: 56px;
+    height: 13px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -782,17 +774,17 @@ color: white;
 }
 
 .black-square2 {
-position: relative;
-width: 1300px;
-height: 953.9px;
-bottom: 425px;
+    position: relative;
+    width: 1300px;
+    height: 953.9px;
+    bottom: 821px;
 background: black;
 }
 
 .image2 {
-width: 1300px;
-height: 953.9px;
-filter: brightness(0.5);
+    width: 1300px;
+    height: 953.9px;
+    filter: brightness(0.5);
 }
 
 .img2 {
@@ -801,86 +793,85 @@ height: 953.9px;
 }
 
 .rectangle2 {
-position: relative;
-width: 1240px;
-height: 769px;
-bottom: 677px;
-left: 23px;
+    position: relative;
+    width: 1240px;
+    height: 769px;
+    bottom: 677px;
+    left: 23px;
 }
 
 .mini-group-6 {
-    display: flex;
-    flex-direction: column;
-position: relative;
+    position: relative;
 }
 
 .h1 {
-position: relative;
-width:589px;
-height: 51px;
-top: 4px;
-left: 348px;
+    position: relative;
+  width:589px;
+  height: 51px;
+  top: 4px;
+  left: 348px;
 
-font-family: 'Yeseva One';
+  font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 text-align: center;
 text-transform: uppercase;
+
 color: #E3B873;  
 }
 
 .envelope {
-position: relative;
-width: 28px;
-height: 28px;
-top: 2px;
-left: 612px;
-background: black;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    top: 3px;
+    left: 612px;
+    background: black;
 }
 
 .email {
-position: relative;
-width: 28px;
-height: 28px;
-background: black;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background: black;
 }
 
 .vect {
 position: relative;
 left: 6px;
-bottom: 30px;
+bottom: 27px;
 }
 
 .vect1 {
 position: relative;
 left: 6px;
-bottom: 46px;
+bottom: 41px;
 }
 
 .insta {
-position: relative;
-width: 28px;
-height: 28px;
-bottom: 26px;
-left: 651px;
-background: #9e9e9e0d;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    bottom: 26px;
+    left: 651px;
+    background: #9e9e9e0d;
 }
 
 .image3 {
-position: relative;
-width: 828px;
-height: 465px;
-top: 15px;
-left: 215px;
+    position: relative;
+    width: 828px;
+    height: 465px;
+    top: 15px;
+    left: 215px;
 }
 
 .footer {
-position: relative;
-width: 1300px;
-top: 4px;
-background: black;  
+    position: relative;
+    max-width: 100%;
+    bottom: 821px;
+    background: black;  
 }
 
 .footer-content {

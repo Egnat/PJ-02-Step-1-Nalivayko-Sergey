@@ -3,16 +3,21 @@ src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
 }
 
+body {
+background:#E5E5E5; 
+margin: 0px;
+}  
+
  @media screen and (min-width: 768px) {
 body { background: yellow; margin: 0px auto;}
-.content-up { margin-left: -219px; }
+.content-up { margin-left: -216px; }
 .admiral { margin-left: 11px; }
 .line { margin-right: -9px; }
-.image {position: relative; width: 541px; height: 451px; 
-right: 210px; bottom: 8px;}
-.group_container-text { margin-left: -112px; }
+.image {position: relative; width: 530px; height: 451px; 
+right: 206px; bottom: 8px;}
+.group_container-text { margin-left: -86px; }
 .content-h2 { margin-top: -31px; }
-.group-vectors { margin-top: -20px; margin-left: -112px;}
+.group-vectors { margin-top: -20px; margin-left: -86px;}
 .control {  margin-left: -158px;}
 .watering-can {  margin-left: -158px;}
 .repair { margin-left: -158px; }
@@ -23,7 +28,7 @@ right: 210px; bottom: 8px;}
 .first-checkbox { margin-left: -158px; }
 .types { margin-left: -158px; }
 .emblem {  margin-left: -158px;}
-.sections { right: 140px; }
+.sections { right: 128px; }
 .photo-bottom-3{ margin-left: -38px; }
 .photo-bottom-2{ margin-left: -18px; }
 .photo-bottom-1{ margin-left: 3px; }
@@ -32,11 +37,6 @@ right: 210px; bottom: 8px;}
 .rub2 { margin-left: 6px; }
 .rub3 {  margin-right: 32px;}
 }}
-
- body {
-background:#E5E5E5; 
-margin: 0p;
-}  
 
 body * {
 box-sizing: border-box;
@@ -141,13 +141,13 @@ left: 610px;
 filter: brightness(0.9);
 }
 
-          @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
 body { background: blue; }
-.content-up {top: 14px; margin-left: -179px; }
-.image {position: relative; width: 552px; right: 171px; bottom: 3px; }
-.group_container-text {position: relative; margin-left: -70px; }
+.content-up {top: 14px; margin-left: -177px; }
+.image {position: relative; width: 552px; right: 168px; bottom: 3px; }
+.group_container-text {position: relative; margin-left: -71px; }
 .content-h2 { margin-top: -27px; }
-.group-vectors { position: relative; margin-top: -7px; margin-left: -70px;}
+.group-vectors { position: relative; margin-top: -7px; margin-left: -71px;}
 .control { margin-top: 16px; margin-left: -111px; }
 .watering-can { margin-left: -111px; }
 .repair { margin-left: -119px; }
@@ -157,7 +157,7 @@ body { background: blue; }
 .first-checkbox {  margin-left: -111px;}
 .types {  margin-left: -111px;}
 .emblem { margin-left: -111px; }
-.sections { left: -101px; }
+.sections { left: -90px; }
 }}
 
 .image {
