@@ -1,25 +1,17 @@
 @font-face {
 src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
- }
-
-@media screen and (max-width: 1300px) and (min-width: 330px){
-body { background: goldenrod; }
-.header-menu { display: none; }
- }}
-
-body {
-background: #E5E5E5;
-margin: 0px;
-} 
-
-body * {
-box-sizing: border-box;
 }
 
+ body {
+background: #E5E5E5;
+margin: 0px;
+box-sizing: border-box;
+} 
+
 .header {
+width: 1438px;
 background: black;
-width: 1300px;
 }
 
 .header-content {
@@ -30,7 +22,7 @@ height: 83px;
 }
 
 .button-header {
-width: 171px;
+width: 175px;
 height: 44px;
 background: #e3b873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -51,7 +43,8 @@ text-align: center;
 }
 
 .logo {
-margin-left: 30px;
+position: relative;
+left: 37px;
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
 font-size: 13px;
@@ -112,11 +105,12 @@ background: wheat;
 
 .room {
 position: relative;
+width: 1438px;
+height: 707px;
+bottom: 1px;
 background: url("room.jpg") no-repeat;
 background-size: cover;
-width: 1300px;
-height: 707px;
-box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.33) inset;
+box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.77) inset;
 }
 
 .container-text {
@@ -144,6 +138,10 @@ color: white;
 
 .city-span {
 color: #e3b873;
+}
+
+.span:hover {
+border-bottom: 2px solid #2798f1;
 }
 
 #text-p {
@@ -181,8 +179,9 @@ text-align: center;
 color: #FFFFFF;
 }
 
-#button1-container-text:hover {
-border: 2px solid #E3B873;
+#button1-container-text:hover, .button-header:hover,
+#button2-container-text:hover, .icon:hover {
+border: 2px solid #2798f1;
 }
 
 #button2-container-text {
@@ -190,7 +189,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 207px;
-height: 51px;background-color: Transparent;
+height: 51px;
+background-color: Transparent;
 background-repeat:no-repeat;
 cursor:pointer;
 overflow: hidden;
@@ -208,6 +208,9 @@ line-height: 15px;
 color: white;
 }
 
-.button-2:hover {
-border-bottom: 2px solid #2798f1;
-}  
+@media screen and (max-width: 1300px) and (min-width: 330px) {
+
+body { background: goldenrod; }
+
+.header-menu { display: none; }
+ }

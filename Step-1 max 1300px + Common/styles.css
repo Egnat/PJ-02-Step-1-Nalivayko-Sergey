@@ -3,24 +3,221 @@ src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
 }
 
-@media screen and (max-width: 1300px) {
-body {max-width: 1300px;}
-}
-
-body {
+ body {
 background: #E5E5E5;
 margin: 0px;
+box-sizing: border-box;
+} 
+
+.header {
+position: relative;
+width: 1300px;
+background: black;
+top: 33px;
+left: 478px;
 }
 
-.main {
-width: 420px;
-height: 790px;
+.header-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 83px;
 }
+
+.button-header {
+width: 171px;
+height: 44px;
+background: #e3b873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+border: 0px;
+outline: 0px;
+padding: 13px 33px;
+margin-right: 30px;
+color: white;
+
+text-transform: uppercase;
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: italic;
+font-weight: 400px;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+}
+
+.logo {
+margin-left: 30px;
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+text-transform: uppercase;
+color: #e3b873;
+}
+
+.telephone {
+position: relative;
+right: 9px;
+
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal; 
+font-size: 13px;
+font-weight: 400;
+text-decoration-line: underline;
+line-height: 15px;
+color:#e3b873;
+}
+
+.header-menu {
+list-style: none;
+margin-left: 129px;
+}
+
+.menu_item {
+padding-right: 29px;
+}
+
+.menu {
+position: relative;
+display: flex;
+margin-right: 30px;
+
+font-size: 13px;
+list-style-type: none;
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+text-decoration: none;
+box-shadow: 1px 8px 17px red;
+}
+
+.link { color:white; 
+text-decoration-line: none;
+}
+
+.icon {
+position: relative;
+display: block;
+width: 35px;
+height: 5px;
+right: 29px;
+background: wheat;
+}
+
+.room {
+position: relative;
+width: 1300px;
+height: 707px;
+top: 32px;
+left: 478px;
+background: url("room.jpg") no-repeat;
+background-size: cover;
+box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.77) inset;
+}
+
+.container-text {
+position: absolute; 
+width: 580.11px;
+height: 433px;
+top: 138px;
+left: 136px;
+}
+
+#h1 {
+width: 577.11px;
+height: 105px;
+top: 277px;
+left: 134px;
+ 
+font-family: "Yeseva+One";
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase; 
+color: white;
+}
+
+.city-span {
+color: #e3b873;
+}
+
+#text-p {
+width: 504px;
+height: 89px;
+top: 401px;
+left: 134px;
+margin-top: -11px;
+margin-bottom: 40px;
+
+font-family: 'Nunito Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+color: #FFFFFF;
+}
+
+#button1-container-text {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 207px;
+height: 51px;
+border-radius: 2px;
+background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+
+font-family: "Nunito Sans",  Arial, sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#button1-container-text:hover {
+border: 2px solid #E3B873;
+}
+
+#button2-container-text {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 207px;
+height: 51px;background-color: Transparent;
+background-repeat:no-repeat;
+cursor:pointer;
+overflow: hidden;
+outline:none;
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+margin-top: -51px;
+margin-left: 232px;
+
+font-family: "Nunito Sans", Arial, sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+color: white;
+}
+
+.button-2:hover {
+border-bottom: 2px solid #2798f1;
+} 
+
+
 
 .content {
 position: relative;
 width: 420px;
-height: 790px;	
+height: 790px; 
+bottom: 760px;
+left: 26px; 
 background: white;
 }
 
@@ -34,7 +231,7 @@ height: 51px;
 border: 1px solid #E3B873;
 top: 21px;
 right: 190px;
-left: 30px;	
+left: 30px; 
 background: #E3B873;
 box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
 
@@ -102,7 +299,7 @@ position: absolute;
 width: 178px;
 height: 39px;
 top: 294px;
-left: 31px;	
+left: 31px; 
 }
 
 .text-h2 {
@@ -298,4 +495,9 @@ color: #131313;
  height: 2px;
  position: absolute;
  background: #2798f1;
-}
+} 
+
+@media screen and (max-width: 1300px) and (min-width: 330px) {
+body { background: goldenrod; }
+.header-menu { display: none; }
+ }

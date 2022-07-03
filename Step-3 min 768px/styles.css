@@ -3,77 +3,70 @@ src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
 }
 
- @media screen and (min-width: 768px) {
-body { background: #795548; margin: 0 auto;}
-.group1 { background: white; }
-.footer-menu { display: none; }
-}}
-
 body { 
-background: skyblue;
+background: goldenrod;
 margin: 0 auto;
-}
-
-body * {
 box-sizing: border-box;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 1300px;
+position: relative;
+max-width: max-content;
 height: auto;
 }
 
-@media screen and (max-width: 334px) {
-body { background: green; }        
-.group1 {background: white; width: 1300px; }   
-}}
-
 .group1 {
 position: relative;
-width: 1300px;
-height: auto;
+width: 1036px;
+height: 1734px;
 background: white;
 }
 
 .section {
+display: flex;
+flex-direction: column;
 position: relative;
 width: 617px;
-height: auto;
+height: 943px;
 }
 
 .house {
-width: 600px;
+width: 504px;
 height: 595px;
 }
 
 .img-house {
-width: 600px;
-height: 595px;
+width: 443px;
+height: 553px;
 }
 
 .rectangle {
 position: relative;
 display: flex;
-justify-content: space-around;;
 flex-direction: column;
-width: 437px;
+width: 434px;
 height: 351px;
 bottom: 375px;
-left: 225px;
+left: 165px;
 }
 
 .mini-group1, .mini-group2, .mini-group3, .mini-group4 {
 display: flex;
 }
 
+.circle {
+width: 78px;
+height: 78px;
+}
+
 .numbers {
+display: flex;
+flex-direction: column;
 position: relative;
-top: 30px;
-right: 60px;
-width: 33px;
-height: 19px;
+width: 30px;
+height: 16px;
+top: 28px;
+right: 55px;
 
 font-family: 'Yeseva One';
 font-style: normal;
@@ -86,6 +79,8 @@ color: #FFFFFF;
 }
 
 .mini-text {
+display: flex;
+flex-direction: column;
 position: relative;
 width: 316px;
 height: 39px;
@@ -108,26 +103,27 @@ background-position: 0 100%;
 background-size: 100% 3px; 
 }
 
-.circle {
-    width: 88px;
-    height: 88px;
+.span-span:hover {
+border-bottom: 2px solid #2798f1;
 }
 
 .black-square {
+display: flex;
+flex-direction: column;
 position: relative;
-width: 506px;
-height: 509px;
-bottom: 910px;
-left: 818px;
+width: 394px;
+height: 454px;
+bottom: 878px;
+left: 618px;
 background: black;
 }
 
 .h4 {
 position: relative;
-width: 227px;
+width: 268.47px;
 height: 47px;
- top: 20px;
-left: 135px;
+bottom: 5px;
+left: 76px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -143,7 +139,7 @@ color: #FFFFFF;
 position: relative;
 width: 348.85px;
 height: 119px;
-top: 27px;
+top: 10px;
 left: 36px;
 cursor: pointer;
 }
@@ -152,7 +148,6 @@ cursor: pointer;
 position: absolute;
 width: 41.62px;
 height: 16px;
-
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -182,15 +177,15 @@ color: #FFFFFF;
 }
 
 .text-question::after {
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- background: #2798f1;
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+background: #2798f1;
 }
 
 .strip {
-width: 423px;
+width: 328px;
 height: 1px;
 top: 55px;
 box-sizing: border-box;
@@ -207,13 +202,13 @@ background-color: #2798f1;
 position: relative;
 width: 348.85px;
 height: 119px;
-top: 8px;
+top: 0px;
 left: 36px;
 cursor: pointer;   
 }
 
 .mail {
- position: relative;
+position: relative;
 width: 348.85px;
 height: 119px;
 bottom: 17px;
@@ -236,22 +231,22 @@ color: #FFFFFF;
 }
 
 .text-question1:hover::after {
-    width: 100%;
+width: 100%;
 }
 
 .text-question1::after {
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- background: #2798f1;
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+background: #2798f1;
 }
 
 .first-checkbox {
 position: relative;
 width: 300px;
 height: 40px;
-bottom: 59px;
+bottom: 45px;
 left: 36px;
 }
 
@@ -292,14 +287,14 @@ color: #FFFFFF;
 }
 
 .button {
-    position: relative;
-    width: 213px;
-    height: 51px;
-    bottom: 38px;
-    left: 238px;
-    padding-bottom: 4px;
-    padding-left: 43px;
-    background: #E3B873;
+position: relative;
+width: 213px;
+height: 51px;
+bottom: 23px;
+left: 153px;
+padding-bottom: 4px;
+padding-left: 43px;
+background: #E3B873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
  }
 
@@ -308,8 +303,8 @@ border: 2px solid #2798f1;
 }
 
 .but-text {
-    width: 123px;
-    height: 13px;
+width: 123px;
+height: 13px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -322,22 +317,24 @@ color: white;
 }
 
 .pig {
-    position: relative;
-    display: flex;
-  width: 72px;
-  height: 72px;
-  bottom: 855px;
-  left: 837px; 
-  background: #FFFFFF;
+position: relative;
+display: flex;
+width: 72px;
+height: 72px;
+bottom: 856px;
+left: 634px; 
+background: #FFFFFF;
 border: 0.1px solid #FFFFFF
 }
 
 .ellipse {
-    position: relative;
-    top: 1px;
-    width: 88px;
-    height: 88px;
-    background: white;
+position: relative;
+top: 1px;
+width: 79px;
+height: 79px;
+right: 6px;
+bottom: 4px;
+background: white;
 box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
 }
 
@@ -345,38 +342,38 @@ box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
 position: relative;
 width: 40px;
 height: 33px;
-top: 18px;
-right: 62px;
+top: 15px;
+right: 63px;
 }
 
 .piggy:hover, .bucks:hover, .eyes:hover {
-    background: #2798f1;
+background: #2798f1;
 }
 
 .eyes {
-    position: relative;
-    width: 5px;
-    height: 2.5px;
-    top: 29px;
-    right: 75px;
+position: relative;
+width: 5px;
+height: 2.5px;
+top: 27px;
+right: 75px;
 }
 
 .bucks {
-    position: relative;
-    width: 8px;
-    height: 11px;
-    top: 29px;
-    right: 93px;
+position: relative;
+width: 8px;
+height: 11px;
+top: 27px;
+right: 95px;
 }
 
 .text-pig {
-    position: absolute;
-    width: 344px;
-    height: 47px;
-    top: -6px;
-    left: 96px;
+position: absolute;
+width: 219px;
+height: 47px;
+top: -8px;
+left: 72px;
 
-  font-family: 'Nunito Sans';
+font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -386,20 +383,23 @@ text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
 .mini-group5 {
-    position: relative;
-    width: auto;
-    height: auto;
-    bottom: 241px;
+display: flex;
+flex-direction: column;
+position: relative;
+width: auto;
+height: auto;
+right: 182px;
+bottom: 172px;
 }
 
 .h2 {
-    position: relative;
-    width: 257px;
-    height: 26px;
-    bottom: 562px;
-    left: 581px;
+position: relative;
+width: 257px;
+height: 26px;
+bottom: 562px;
+left: 581px;
 
-    font-family: 'Yeseva One';
+font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -410,46 +410,46 @@ color: #181818;
 }
 
 .group-hands {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 34px;
-    height: 28px;
-    bottom: 567px;
-    left: 680px;
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 34px;
+height: 28px;
+bottom: 567px;
+left: 680px;
 }
 
 .vector1 {
-    position: relative;
-    width: 32px;
-    height: 1.5px;
-    right: 6px;
-    background: #E3B873;
+position: relative;
+width: 32px;
+height: 1.5px;
+right: 6px;
+background: #E3B873;
 border-radius: 30px;
 }
 
 .hands {
-    width: 34px;
-    height: 21px;
+width: 34px;
+height: 21px;
 }
 
 .vector2 {
-    position: relative;
-    width: 32px;
-    height: 1.5px;
-    left: 6px;
-    background: #E3B873;
+position: relative;
+width: 32px;
+height: 1.5px;
+left: 6px;
+background: #E3B873;
 border-radius: 30px;
- border-bottom: ;: 2px solid #E3B873;
+border-bottom: ;: 2px solid #E3B873;
 }
 
 .vector1:hover, .vector2:hover {
-    background: #2798f1;
+background: #2798f1;
 }
 
 .h3 {
-  position: relative;
+position: relative;
 width: 366px;
 height: 57px;
 bottom: 572px;
@@ -464,59 +464,60 @@ text-align: center;
 color: #363636;  
 }
 
+.section-content {
+position: relative;
+}
+
 .people {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+position: relative;
+display: flex;
+justify-content: space-between;
 width: auto;
 height: auto;
 bottom: 715px;
-left: 36p;
-
+right: 54px;
 }
 
 .one, .two, .three {
-    position: relative;
-    width: 322px;
-    height: 428px;
-    background: white;
-
+position: relative;
+width: 196px;
+height: 428px;
+background: white;
 }
 
 .ellipse1, .ellipse2, .ellipse3 {
-    position: relative;
-    width: 76px;
-    height: 76px;
-    right: 113px;
-    bottom: 15px;
-    z-index: -1;
-     background: #FFFFFF;
+position: relative;
+width: 40px;
+height: 40px;
+right: 58px;
+bottom: 19px;
+z-index: -1;
+background: #FFFFFF;
 }
 
 .photo1, .photo2, .photo3 {
-    position: relative;
-    width: 116px;
-    height: 102px;  
+position: relative;
+width: 70px;
+height: 70px;  
 }
 
 .woman, .man {
-    position: relative;
+position: relative;
 width: 178px;
 height: 51px;
-bottom: 87px;
-left: 153px ;
+bottom: 76px;
+left: 81px;
 
 font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 23px;
-
 color: #181818;
 }
 
 .text-woman {
-    position: relative;
+position: relative;
 width: 324px;
 height: 216px;
 bottom: 64px;
@@ -529,32 +530,50 @@ line-height: 23px;
 }
 
 .button-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    height: auto;
-    bottom: 742px;
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: auto;
+height: auto;
+right: 53px;
+bottom: 742px;
 }
+
 .but1, .but2, .but3 {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 260px;
-    height: 54px;
-    background: #E3B873;
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 272px;
+height: 54px;
+background: #E3B873;
 box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
 
-.but1:hover {
+.but1:hover, .but2:hover, .but3:hover {
 border: 2px solid #2798f1;
 }
 
+.vertical {
+position: relative;
+right: 8px;
+}
+
+.vertical:hover {
+background: #2798f1;
+}
+
+.pot {
+position: relative;
+left: 0px;
+}
+
 .but1-text {
-    width: 123px;
-    height: 13px;
+position: relative;
+width: 123px;
+height: 13px;
+left: 2px;
 
 font-family: 'Yeseva One';
 font-style: normal;
@@ -562,28 +581,77 @@ font-weight: 400;
 font-size: 17px;
 line-height: 24px;
 text-transform: uppercase;
-
 color: #FFFFFF;
 }
 
+.but2-text {
+position: relative;
+width: 123px;
+height: 13px;
+
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;   
+}
+
+.buildings {
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: ;
+width: 1027px;
+height: 339px;
+bottom: 721px;
+opacity: 0.05;
+}
+
+.building1 {
+position: absolut;
+width: 500px;
+height: 319px;
+background: #9e9e9e0d;
+}
+
+.building2 {
+position: absolut;
+width: 500px;
+height: 319px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+background: #9e9e9e0d;
+}
+
 .black-rectangle {
-    position: relative;
-    width: 770px;
-    height: 409.32px;
-    bottom: 608px;
-    left: 271px;
-    z-index: 1;
-    background: black;
+position: relative;
+width: 569px;
+height: 336.32px;
+bottom: 188px;
+left: 246px;
+z-index: 1;
+background: black;
+}
+
+.black-rectangle-mini {
+display: flex;
+flex-direction: column;
+position: relative;
+width: auto;
+height: auto;
+right: 60px;
+bottom: 23px;
 }
 
 .h2-b-r {
-    position: relative;
-    width: 257px;
-    height: 26px;
-    top: 34px;
-    left: 259px;
+position: relative;
+width: 257px;
+height: 26px;
+top: 25px;
+left: 220px;
 
-    font-family: 'Yeseva One';
+font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -598,7 +666,7 @@ color: #FFFFFF;
 position: relative;
 width: 348.85px;
 height: 119px;
-top: 19px;
+top: 42px;
 left: 131px;
 cursor: pointer;
 }
@@ -645,7 +713,7 @@ color: #FFFFFF;
 }
 
 .strip1  {
-width: 231px;
+width: 160px;
 height: 1px;
 top: 55px;
 box-sizing: border-box;
@@ -655,7 +723,7 @@ background: gba(255, 255, 255, 0.15);;
 }
 
 .strip2 {
- width: 517px;
+width: 427px;
 height: 1px;
 top: 55px;
 box-sizing: border-box;
@@ -672,13 +740,13 @@ background-color: #2798f1;
 position: relative;
 width: 348.85px;
 height: 119px;
-bottom: 100px;
+bottom: 78px;
 left: 403px;
 cursor: pointer;   
 }
 
 .question {
- position: relative;
+position: relative;
 width: 348.85px;
 height: 119px;
 bottom: 116px;
@@ -701,23 +769,23 @@ color: #FFFFFF;
 }
 
 .text-question1:hover::after {
-    width: 100%;
+width: 100%;
 }
 
 .text-question1::after {
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- background: #2798f1;
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+background: #2798f1;
 }
 
 .first-checkbox1 {
 position: relative;
 width: 300px;
 height: 40px;
-bottom: 145px;
-left: 251px;
+bottom: 157px;
+left: 228px;
 }
 
 .label {
@@ -748,20 +816,20 @@ opacity: 1;
 }
 
 .button-bl-r {
-    position: relative;
-    width: 213px;
-    height: 51px;
-    bottom: 122px;
-    left: 289px;
-    padding-bottom: 6px;
-    padding-left: 79px;
-    background: #E3B873;
+position: relative;
+width: 199px;
+height: 46px;
+bottom: 160px;
+left: 266px;
+padding-bottom: 6px;
+padding-left: 73px;
+background: #E3B873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
  }
 
 .button-bl-r-text {
-    width: 56px;
-    height: 13px;
+width: 56px;
+height: 13px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -774,104 +842,107 @@ color: white;
 }
 
 .black-square2 {
-    position: relative;
-    width: 1300px;
-    height: 953.9px;
-    bottom: 821px;
+position: relative;
+width: 1036px;
+height: 792.9px;
+bottom: 339px;
 background: black;
 }
 
 .image2 {
-    width: 1300px;
-    height: 953.9px;
-    filter: brightness(0.5);
+width: 965px;
+height: 792.9px;
+filter: brightness(0.5);
 }
 
 .img2 {
-width: 1300px;
-height: 953.9px;
+width: 1036px;
+height: 792.9px;
 }
 
 .rectangle2 {
-    position: relative;
-    width: 1240px;
-    height: 769px;
-    bottom: 677px;
-    left: 23px;
+position: relative;
+width: 100%;
+height: 769px;
+bottom: 595px;
+left: 88px;
 }
 
 .mini-group-6 {
-    position: relative;
+display: flex;
+flex-direction: column;
+position: relative;
+top: 17px;
+right: 203px;
 }
 
 .h1 {
-    position: relative;
-  width:589px;
-  height: 51px;
-  top: 4px;
-  left: 348px;
+position: relative;
+width:589px;
+height: 51px;
+top: 4px;
+left: 348px;
 
-  font-family: 'Yeseva One';
+font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 text-align: center;
 text-transform: uppercase;
-
 color: #E3B873;  
 }
 
 .envelope {
-    position: relative;
-    width: 28px;
-    height: 28px;
-    top: 3px;
-    left: 612px;
-    background: black;
+position: relative;
+width: 28px;
+height: 28px;
+top: 2px;
+left: 612px;
+background: black;
 }
 
 .email {
-    position: relative;
-    width: 28px;
-    height: 28px;
-    background: black;
+position: relative;
+width: 28px;
+height: 28px;
+background: black;
 }
 
 .vect {
 position: relative;
 left: 6px;
-bottom: 27px;
+bottom: 30px;
 }
 
 .vect1 {
 position: relative;
 left: 6px;
-bottom: 41px;
+bottom: 46px;
 }
 
 .insta {
-    position: relative;
-    width: 28px;
-    height: 28px;
-    bottom: 26px;
-    left: 651px;
-    background: #9e9e9e0d;
+position: relative;
+width: 28px;
+height: 28px;
+bottom: 26px;
+left: 651px;
+background: #9e9e9e0d;
 }
 
 .image3 {
-    position: relative;
-    width: 828px;
-    height: 465px;
-    top: 15px;
-    left: 215px;
+position: relative;
+width: 664px;
+height: 359px;
+top: 19px;
+left: 108px;
 }
 
 .footer {
-    position: relative;
-    max-width: 100%;
-    bottom: 821px;
-    background: black;  
+position: relative;
+width: 1036px;
+bottom: 339px;
+background: black;  
 }
 
 .footer-content {
@@ -885,7 +956,7 @@ align-items: center;
 position: relative;
 width: 161px;
 height: 37px;
-right: 55px;
+right: 38px;
 background: #e3b873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 border-radius: 2px;
@@ -907,7 +978,7 @@ text-align: center;
 position: relative;
 width: 179.74px;
 height: 10px;
-left: 61px;
+left: 16px;
 
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
@@ -922,7 +993,7 @@ color: #e3b873;
 position: relative;
 width: 126px;
 height: 16px;
-left: 28px;
+right: 10px;
     
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal; 
@@ -935,7 +1006,8 @@ color:#e3b873;
 
 .footer-menu {
 position: relative;
-left: 83px;
+display: non;
+right: 7px;
 list-style: none;
 }
 
@@ -962,11 +1034,164 @@ text-decoration-line: none;
 color: white;
 }
 
-.icon {
-position: relative;
-display: block;
-width: 35px;
-height: 5px;
-left: 43px;
-background: wheat;
+@media screen and (min-width: 768px) {
+body { background: #795548; }
+
+.wrapper { left: 60p; }
+
+.group1 { width: 1010px; height:1730px ; backgroun: white; }
+
+.img-house { width: 64%; }
+
+.rectangle { left: 118px; }
+
+.black-square { left: 617px; }
+
+.section-content { right: 0px; }
+
+.people { right: 43px; }
+
+.button-container { right: 44px; }
+
+.black-rectangle {  width: 589px; left: 225px;}
+
+.black-rectangle-mini { right: 50px; }
+
+.mini-group-6 {  right: 218px;}
+
+.black-square2 { width: 1010px; bottom: 335px;}
+
+.img2 { width: 1010px; }
+
+.image3 { width: 643px; }
+
+.footer { width: 1010px; }
+
+.logo { left: 34px; }
+
+.footer-menu { left: 3px; }
+
+.button-footer { right: 35px; }
+
+.telephone { right: 16px; }
+
+.footer-menu { display: non; }
+}
+
+@media screen and (min-width: 1125px) {
+body { background: green; }
+
+.group1 { width: 1330px; }
+
+.img-house { width: 554px; }
+
+.rectangle { left: 217px; }
+
+.black-square { width: 425px;left: 904px; }
+
+.h4 { left: 85px; }
+
+.button { left: 169px; }
+
+.pig { left: 915px; }
+
+.mini-group5 { right: 35px; }
+
+.section-content { left: 96px; }
+
+.people { padding-right: 176px; }
+
+.button-container { padding-right: 176px; }
+
+.buildings { width: 1317px; }
+
+.building1 {  width: 667px;}
+
+.building2 { width: 623px; }
+
+.black-rectangle { width: 721px; left: 320px; }
+
+.black-rectangle-mini { right: -19px; }
+
+.black-square2 { width: 1330px }
+
+.img2 { width: 1330px; }
+
+.rectangle2 { left: 101px; }
+
+.mini-group-6 { right: 93px; }
+
+.image3 { width: 853px; left: 132px; }
+
+.footer { width: 1330px; }
+
+.logo { left: 75px; } 
+
+.footer-menu { left: 34px; }
+
+.telephone { right: 0px; }
+
+.button-footer { right: 79px; }   
+}
+
+@media screen and (min-width: 1442px) {
+body { background: red; }
+
+.group1 { width: 1483px; height: 1767px;}
+
+.img-house { width: 687px; }
+
+.rectangle { left: 275px; }
+
+.black-square { width: 464px; left: 1017px; }
+
+.h4 { left: 105px; }
+
+.button { left: 205px; }
+
+.pig { left: 1049px; }
+
+.mini-group5 { right: -46px; }
+
+.section-content {width: 1399px; left: 136px; }
+
+.people { padding-right: 176px; }
+
+.woman, .man { font-size: 15px; }
+
+.button-container { padding-right: 176px; bottom: 716px;}
+
+.buildings {width: 1483px; bottom: 707px; }
+
+.building1 {width: 742px; height: 342px; }
+
+.building2 {width: 728px; height: 342px; }
+
+.black-rectangle { width: 838px; height: 374px; bottom: 199px;left: 347px; }
+
+.black-rectangle-mini { right: -68px; bottom: 10px;}
+
+.first-checkbox1 { bottom: 151px; }
+
+.button-bl-r { bottom: 139px; }
+
+.black-square2 { width: 1483px; bottom: 374px;}
+
+.img2 { width: 1483px; }
+
+.rectangle2 {bottom: 578px; left: 101px; }
+
+.mini-group-6 {top: 4px; right: 17px; }
+
+.image3 { width: 1001px; height: 384px; top: 4px; left: 132px; }
+
+.footer { width: 1483px; bottom: 375px;}
+
+.logo { left: 75px; } 
+
+.footer-menu { left: 34px; }
+
+.telephone { right: 0px; }
+
+.button-footer { right: 79px; }     
 }
