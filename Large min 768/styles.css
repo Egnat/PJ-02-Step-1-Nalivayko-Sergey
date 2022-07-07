@@ -255,8 +255,9 @@ left: 1309px;
 
 .menu-list {
 position: relative;
-width: 745px;
+width: 726px;
 height:16.32px;
+right: 37px;
 bottom: 80px;
 }
 
@@ -272,26 +273,15 @@ font-size: 15px;
 line-height: 19px;
 list-style-type: none; 
 text-transform: uppercase;
-color: white;
+color: rgba(255, 255, 255, 0.3);
 }
 
-.admiral {
-position: relative;
-width: 205px;
-height: 16.32px;
-right: 35px;
-
-font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 19px;
-text-transform: uppercase;
+.span1{
 color: #E3B873;
 }
 
 .list_item {
-padding-right: 78px;
+padding-right: 58px;
 }
 
 .line {
