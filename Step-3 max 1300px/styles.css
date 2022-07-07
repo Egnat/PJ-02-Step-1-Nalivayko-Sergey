@@ -91,7 +91,7 @@ line-height: 19px;
 color: #363636;
 }
 
-.span:hover, .numbers:hover, .text-name:hover, .text:hover, .span-bl-sq2:hover {
+.span:hover, .numbers:hover, .text-name:hover, .text:hover, .but-text:hover{
 background-image: linear-gradient(to right, #2798f1 0%, #2798f1 100%);
 background-repeat: repeat-x; 
 background-position: 0 100%; 
@@ -943,7 +943,6 @@ left: 242px;
 position: relative;
 width: 1300px;
 bottom: 483px;
-margi: 0 auto;
 background: black;  
 }
 
@@ -1043,8 +1042,6 @@ background: wheat;
 @media screen and (max-width: 1300px) {
 body { background: #795548;}
 
-.wrapper {width: 1026p;}
-
 .group1 {width: 1026p; height: 1707px; background: white;}
 
 .img-house {width: 429px; height: 507px;}
@@ -1082,7 +1079,7 @@ padding-left: 28px;}
 
 .mini-group5 {right: 184px; bottom: 188px;}
 
-.people {width: 1291px; right: 73px;}
+.people {width: 1291px; right: 60px;}
 
 .photo1, .photo2, .photo3 {width: 80px; height: 80px;}
 
@@ -1094,7 +1091,7 @@ padding-left: 28px;}
 
 .three {width: 160px;left: -373px;}
 
-.button-container {bottom: 741px; left: 0px;}
+.button-container {bottom: 741px; left: 11px;}
 
 .but1 {width: 247px; margin-left: -76px;}
 
@@ -1123,9 +1120,9 @@ bottom: 188px; left: 202px;}
 
 .button-bl-r { bottom: 133px; left: 253px;}
 
-.black-square2 { width: 1026px; height: 751px; bottom: 357px;}
+.black-square2 { width: 1035px; height: 751px; bottom: 357px;}
 
-.img2 { width: 1026px; height: 751px;}
+.img2 { width: 1035px; height: 751px;}
 
 .rectangle2 {  top: 169px;}
 
@@ -1133,7 +1130,7 @@ bottom: 188px; left: 202px;}
 
 .image3 {width:696px;height: 356px;left: 123px;}
 
-.footer { width: 1026px; bottom: 357px;}
+.footer { width: 1035px; bottom: 357px;}
 
 .footer-menu {display: none;}
 }
