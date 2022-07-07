@@ -25,7 +25,7 @@ height: 83px;
 }
 
 .button-header {
-width: 171px;
+width: 175px;
 height: 44px;
 background: #e3b873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -43,6 +43,10 @@ font-weight: 400px;
 font-size: 13px;
 line-height: 15px;
 text-align: center;
+}
+
+.button-header:hover, #button1-container-text:hover, #button2-container-text:hover {
+border: 2px solid #2798f1;
 }
 
 .logo {
@@ -71,7 +75,6 @@ color:#e3b873;
 
 .header-menu {
 list-style: none;
-margin-left: 129px;
 }
 
 .menu_item {
@@ -81,7 +84,6 @@ padding-right: 29px;
 .menu {
 position: relative;
 display: flex;
-margin-right: 30px;
 
 font-size: 13px;
 list-style-type: none;
@@ -102,7 +104,7 @@ position: relative;
 display: block;
 width: 35px;
 height: 5px;
-right: 29px;
+right: 14px;
 background: wheat;
 }
 
@@ -144,6 +146,10 @@ color: white;
 color: #e3b873;
 }
 
+.span:hover {
+border-bottom: 2px solid #2798f1;
+}
+
 #text-p {
 width: 504px;
 height: 89px;
@@ -179,10 +185,6 @@ text-align: center;
 color: #FFFFFF;
 }
 
-#button1-container-text:hover {
-border: 2px solid #E3B873;
-}
-
 #button2-container-text {
 display: flex;
 justify-content: center;
@@ -205,12 +207,6 @@ font-size: 11px;
 line-height: 15px;
 color: white;
 }
-
-.button-2:hover {
-border-bottom: 2px solid #2798f1;
-} 
-
-
 
 .content {
 position: relative;
